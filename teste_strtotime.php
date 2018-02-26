@@ -12,7 +12,7 @@ $hora2 = $teste;
 $total = $hora1 - $hora2;
 
 $total2 = $calc->converteHora($total);
-$total2 = date('H:i:s', strtotime($total2));
+$total2 = date('H:i:s', strtotime($total));
 echo "<br><br>";
 echo $total."<br> <br>";
 
